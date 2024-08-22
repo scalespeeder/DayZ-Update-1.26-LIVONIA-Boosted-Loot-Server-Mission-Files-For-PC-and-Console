@@ -4,6 +4,27 @@
 
 <!-- new 1.26 asdditions -->
 
+	<type name="Boat_01_Black">
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.0" />
+		</attachments>
+	</type>
+	<type name="Boat_01_Blue">
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.0" />
+		</attachments>
+	</type>
+	<type name="Boat_01_Camo">
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.0" />
+		</attachments>
+	</type>
+	<type name="Boat_01_Orange">
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.0" />
+		</attachments>
+	</type>
+
 <type name="AssaultBag_Winter">
 		<cargo preset="mixArmy" />
 		<cargo preset="mixArmy" />

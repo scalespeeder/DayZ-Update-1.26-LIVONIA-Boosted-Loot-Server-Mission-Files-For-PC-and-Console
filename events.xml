@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
+
+ <event name="VehicleBoat">
+        <nominal>5</nominal>
+        <min>2</min>
+        <max>6</max>
+        <lifetime>6000</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="10" min="5" type="Boat_01_Black"/>
+            <child lootmax="0" lootmin="0" max="10" min="5" type="Boat_01_Blue"/>
+            <child lootmax="0" lootmin="0" max="10" min="5" type="Boat_01_Orange"/>
+        </children>
+    </event>
+
+
+
      <event name="AmbientFox">
         <nominal>0</nominal>
         <min>0</min>
